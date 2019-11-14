@@ -1,0 +1,15 @@
+[	{
+		"name": "CountyTown",
+		"title": "縣市　鄉鎮區",
+		"sorted": true
+	},
+	{
+		"name": "village",
+		"title": "村里"
+	},
+	{
+		"name": "function",
+		"title": "功能",
+		"style":{"width": 100,"text-align":"center"}
+	}
+]

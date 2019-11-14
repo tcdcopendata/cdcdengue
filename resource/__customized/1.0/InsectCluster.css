@@ -1,0 +1,117 @@
+﻿.legendtb {
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: '微軟正黑體', 'Times New Roman';
+    padding: 5px 10px 5px 10px;
+}
+.setCenterView {
+	border: 0.5px gray solid;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+}
+.setCenterView:hover {
+    color : rgba(136,0,21,1);
+}
+
+.my-div-iconSafe {
+	border: 0.5px gray solid;
+	border-radius: 100%;
+	width: 9px;
+	height: 9px;
+	background: #FED52F;
+	
+	float: left;
+}
+
+.my-div-iconWarn {
+	border:0.5px gray solid;
+	border-radius: 100%;
+	width: 9px;
+	height: 9px;
+	
+	background: orange;
+	float: left;
+}
+
+.my-div-iconNone {
+	border: 0.5px gray solid;
+	border-radius: 100%;
+	width: 9px;
+	height: 9px;
+	background: grey;
+	float: left;
+}
+
+.my-div-iconDanger {
+	border-radius: 100%;
+	width: 9px;
+	height: 9px;
+	
+	background: red;
+	float: left;
+}
+
+.my-div-group {
+	margin-left: -13px;
+	margin-top: -6px;
+	width: 50px;
+}
+
+#searchAddress {
+	border-style: solid;
+	border-color: gray;
+	height: 40px;
+	font-size: 16px;
+	margin-right:10px;
+}
+
+#searchButton {
+	border-width: inherit;
+	/* border: solid; */
+	border-radius: 10%;
+	height: 41px;
+	background-color: rgba(0,181,173,1);
+	font-size: 16px;
+	color: white;
+	width: 60px;
+}
+
+#statistic {
+	height: 40px;
+	color: white;
+}
+
+.btn.btn-default.dropdown-toggle {
+height:34px;
+width:30px;
+padding:0px;
+}
+
+#statistic_button {
+	border-width: inherit;
+	/* border: solid; */
+	border-radius: 10%;
+	height: 41px;
+	background-color: rgba(0,181,173,1);
+	font-size: 16px;
+	color: white;
+	width: 80px;
+}
+
+#nav_start {
+	border-width: inherit;
+	/* border: solid; */
+	border-radius: 10%;
+	height: 41px;
+	background-color: rgba(0,181,173,1);
+	font-size: 16px;
+	color: white;
+	width: 80px;
+}
+
+#statistic_time {
+	font-size: 12px;
+	color: "#DC143C";
+}

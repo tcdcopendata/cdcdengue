@@ -1,0 +1,17 @@
+﻿.legendtb {
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: '微軟正黑體', 'Times New Roman';
+    padding: 5px 10px 5px 10px;
+}
+.setCenterView {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+}
+.setCenterView:hover {
+    color : rgba(136,0,21,1);
+}
+
+

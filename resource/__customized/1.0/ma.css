@@ -1,0 +1,49 @@
+﻿.legendtb {
+    width: 200px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: '微軟正黑體', 'Times New Roman';
+    padding: 5px 0px 5px 10px;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    color: #fff;
+    line-height: 15px;
+    font-family: '微軟正黑體', 'Times New Roman';
+    font-size: 15px;
+}
+
+.square {
+    width: 15px;
+    height: 15px;
+    border-radius: 0px;
+    color: #fff;
+    line-height: 15px;
+    font-family: '微軟正黑體', 'Times New Roman';
+    font-size: 15px;
+}
+
+.legendtxt {
+    position: absolute;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.labeltext {
+    text-align: center;
+    border: none;
+    margin-left: -40px;
+    background: none;
+    color: black;
+    font-size: 12px;
+    font-family: '微軟正黑體', 'Times New Roman';
+}
+
+.leaflet-label:before {
+    border-right: none;
+    z-index: 0;
+}

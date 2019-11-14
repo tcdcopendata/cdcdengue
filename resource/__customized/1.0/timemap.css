@@ -1,0 +1,20 @@
+﻿.legendtb {
+    width:180px; 
+    background:#FFFFFF; 
+    border-radius:8px; 
+    padding: 10px 10px 10px 10px;
+}
+.circle{
+    width:13px;
+    height:13px;
+    border-radius:8px;
+    color:#fff;
+    line-height:15px;
+    font-family: '微軟正黑體', 'Times New Roman'; 
+    font-size:15px;
+}
+.legendtxt{
+    position:absolute;
+    color:#000000;
+    margin-left:20px; 
+}

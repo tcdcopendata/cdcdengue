@@ -1,0 +1,275 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Microsoft JhengHei', 'Times New Roman';
+}
+
+#header {
+	background-color: #EBEBEB;
+	background-image: url('/data/images/texture_stripes.png');
+	padding-top: 20px;
+	padding-bottom: 45px;
+	padding-left: 4%;
+	padding-right: 4%;
+	margin-bottom: -59px;
+	background-repeat: repeat;
+
+}
+
+#map {
+	height: 500px;
+}
+.ui.page.grid {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.ui .column .main {
+	margin-bottom: 20px;
+}
+
+.ui .column .main h1 {
+	font-size: 50px;
+}
+
+.ui .column .main p {
+	font-size: 20px;
+}
+
+.m-top-20 {
+	margin-top: 20px;
+}
+
+.button-control a {
+	text-transform: capitalize !important;
+}
+
+.img-thumbnail {
+	padding: 4px;
+	border: 1px solid #ddd;
+	background: #fff;
+	border-radius: 4px;
+}
+
+.panel {
+	font-size: 14px !important;
+}
+
+.panel .header {
+	margin: 5px 0;
+}
+
+.ui.text.container {
+	text-align: left;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	margin-bottom: 20px;
+}
+
+#pagetitle {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	text-align: left;
+}
+
+#pagetitle_m {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	text-align: left;
+}
+
+#pagemessage {
+	margin-top: -50px;
+}
+
+#footer {
+	border-radius: 0em;
+
+	margin: 0em;
+	background-image: url('/data/images/texture_stripes.png');
+}
+
+#footer-content {
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.chartstyle {
+	height: 450px;
+	width: 100%;
+	background: rgba(0, 0, 0, .03);
+}
+
+
+.mobile.row {
+	padding-top: 0px !important;
+	margin-top: 0px !important;
+}
+
+.mobile.row .ui.inverted.menu {
+	border-radius: 0px !important;
+}
+
+.padding-reset {
+	padding: 0px !important;
+}
+
+/* map style */
+.grayscale .leaflet-tile-pane {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.ui.vertical.menu {
+	margin-top: -15px !important;
+	width: 100%;
+	display: none;
+}
+
+/* modify close button */
+.leaflet-container a.leaflet-popup-close-button {
+	font: 22px/20px Tahoma, Verdana, sans-serif;
+}
+
+/* notify */
+.notify {
+	position: fixed;
+	top: 20%;
+	left: 25%;
+	z-index: 2000;
+	width: 50%;
+	font-size: 18px;
+	border: 2px solid rgba(120, 120, 120, 0.8);
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	cursor: pointer;
+}
+
+.Advocacyslogan {
+	position: fixed;
+	top: 40%;
+	left: 30%;
+	z-index: 2000;
+	width: 40%;
+	font-size: 28px;
+	border: 5px solid rgba(255, 255, 255, 1);
+	padding: 20px;
+	background-color: rgba(0, 181, 173, 1);
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	cursor: pointer;
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+}
+
+/* clear cache */
+.clear-cache {
+	color: rgba(0, 181, 173, 1);
+	cursor: pointer;
+}
+
+.clear-cache:hover {
+	text-decoration: underline;
+}
+
+/* buttons */
+.small-btn {
+	font-size: 18px;
+}
+
+.btn-off {
+	color: rgba(200, 200, 200, 0.6);
+}
+
+#noMosquiIcon {
+	width: 200px;
+	height: 200px;
+}
+
+.leaflet-popup-content {
+	font-family: Microsoft JhengHei;
+}
+
+/* mobile device */
+@media (max-width: 767px) {
+	.ui.page.grid {
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+
+	#map {
+		height: 600px;
+	}
+
+	#pagemessage {
+		margin-top: -50px;
+		padding: 15px;
+	}
+
+	.ui.text.container {
+		text-align: left;
+		margin-left: -10px;
+		margin-right: -10px;
+		margin-bottom: 20px;
+	}
+
+
+	.ui.grid.main {
+		margin-top: 70px;
+	}
+
+	.ui.vertical.menu.navbar {
+		margin-top: 0px !important;
+	}
+
+	.Advocacyslogan {
+		position: fixed;
+		top: 25%;
+		left: 25%;
+		z-index: 2000;
+		width: 50%;
+		font-size: 28px;
+		border: 5px solid rgba(255, 255, 255, 1);
+		padding: 20px;
+		background-color: rgba(0, 181, 173, 1);
+		border-radius: 20px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		cursor: pointer;
+		color: rgba(255, 255, 255, 1);
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	#noMosquiIcon {
+		width: 150px;
+		height: 150px;
+	}
+
+	.leaflet-popup-content {
+		font-family: Microsoft JhengHei;
+		width: 190px;
+	}
+
+	.ui.basic.table {}
+
+	#statistic_button {
+		height: 35px;
+	}
+
+	#searchAddress {
+		width: 150px;
+	}
+
+	#searchButton {
+		width: 40px;
+		margin-bottom: 10px;
+		height: 35px;
+	}
+}
