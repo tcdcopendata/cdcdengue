@@ -11,10 +11,28 @@
 
 ## 安裝
 * 開一個visual studio .Net 專案在本機端。
+```
+檔案>新增>專案
+選擇 ASP.NET Core Web 應用程式
+```
+
 * 下載專案，並將其放置專案中。
 * 根據.aspx檔案，下載所需之前端套件放到對應的資料夾中
+```
+根據前端檔案下載前端套件於資料夾resource中:
+路徑如下:
+/resource/bootstrap/
+/resource/font-awesome/
+/resource/footable/
+/resource/highcharts/
+/resource/intro/
+/resource/jquery/
+/resource/jquery-ui/
+/resource/leaflet/
+/resource/lzstring/
+/resource/noUiSlider/
+/resource/seed/
+/resource/Semantic-UI/
+/resource/turf/
+```
 * 啟動即可使用
-
-
-
-
